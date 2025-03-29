@@ -1,0 +1,40 @@
+{
+    "categories": [
+        { "id": 1, "name": "Помощь психолога" },
+        { "id": 2, "name": "Гаджеты" },
+        { "id": 3, "name": "Предметы искусства" },
+        { "id": 4, "name": "Товары для дома" },
+        { "id": 5, "name": "Таланты" },
+        { "id": 6, "name": "Магия" },
+        { "id": 7, "name": "Релакс" },
+        { "id": 8, "name": "Развлечения" },
+        { "id": 9, "name": "Сокровища" },
+        { "id": 10, "name": "Недвижимость" },
+        { "id": 11, "name": "Красота и здоровье" },
+        { "id": 12, "name": "Могущество" },
+        { "id": 13, "name": "Стиль" }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Смартфон Galaxy",
+            "price": 599,
+            "image": "/images/galaxy.jpg",
+            "categories": [1]
+        },
+        {
+            "id": 2,
+            "name": "Рубашка мужская",
+            "price": 29,
+            "image": "/images/shirt.jpg",
+            "categories": [2]
+        },
+        {
+            "id": 3,
+            "name": "Кроссовки Nike",
+            "price": 120,
+            "image": "/images/sneakers.jpg",
+            "categories": [3, 2]
+        }
+    ]
+}
