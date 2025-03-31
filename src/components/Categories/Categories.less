@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.categories {
+    display: flex;
+    column-gap: 6px;
+    padding: 8px 16px 0;
+}
+
+.categories__item {
+    width: 90px;
+}
+
+@img-size: 90px;
+
+.categories__photo {
+    display: block;
+    width: @img-size;
+    height: @img-size;
+    border-radius: @radius-lg;
+    object-fit: cover;
+}
+
+.categories__text {
+    .text-style(15px, 100%, 550);
+    text-align: center;
+    margin-top: 8px;
+    overflow-wrap: break-word;
+}

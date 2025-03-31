@@ -1,18 +1,70 @@
 {
     "categories": [
-        { "id": 1, "name": "Помощь психолога" },
-        { "id": 2, "name": "Гаджеты" },
-        { "id": 3, "name": "Предметы искусства" },
-        { "id": 4, "name": "Товары для дома" },
-        { "id": 5, "name": "Таланты" },
-        { "id": 6, "name": "Магия" },
-        { "id": 7, "name": "Релакс" },
-        { "id": 8, "name": "Развлечения" },
-        { "id": 9, "name": "Сокровища" },
-        { "id": 10, "name": "Недвижимость" },
-        { "id": 11, "name": "Красота и здоровье" },
-        { "id": 12, "name": "Могущество" },
-        { "id": 13, "name": "Стиль" }
+        { 
+            "id": 1, 
+            "name": "Помощь психолога", 
+            "image": "psychologist.png" 
+        },
+        { 
+            "id": 2, 
+            "name": "Гаджеты",
+            "image": "gadgets.png"
+        },
+        { 
+            "id": 3, 
+            "name": "Предметы искусства",
+            "image": "art.png"
+        },
+        { 
+            "id": 4, 
+            "name": "Товары для дома",
+            "image": "home.png"
+        },
+        { 
+            "id": 5, 
+            "name": "Таланты",
+            "image": "talents.png" 
+        },
+        { 
+            "id": 6, 
+            "name": "Магия",
+            "image": "magic.png" 
+        },
+        { 
+            "id": 7, 
+            "name": "Релакс",
+            "image": "relax.png" 
+        },
+        { 
+            "id": 8, 
+            "name": "Развлечения",
+            "image": "entertainments.png"
+        },
+        { 
+            "id": 9, 
+            "name": "Сокровища",
+            "image": "treasures.png"
+        },
+        { 
+            "id": 10, 
+            "name": "Недвижимость",
+            "image": "realty.png"
+        },
+        { 
+            "id": 11, 
+            "name": "Красота и здоровье",
+            "image": "beauty.png"
+        },
+        { 
+            "id": 12, 
+            "name": "Могущество",
+            "image": "power.png"
+        },
+        { 
+            "id": 13, 
+            "name": "Стиль",
+            "image": "style.png"
+        }
     ],
     "products": [
         {

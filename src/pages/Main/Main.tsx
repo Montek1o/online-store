@@ -1,3 +1,4 @@
+import Categories from '../../components/Categories/Categories';
 import './Main.less';
 
 const Main = () => {
@@ -5,6 +6,7 @@ const Main = () => {
         <main className='main'>
             <div className='main-wrapper'>
                 <div className='main__banner'></div>
+                <Categories />
             </div>
         </main>
     );
